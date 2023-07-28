@@ -35,6 +35,9 @@ a{
     text-decoration: none;
     color: gray;
 }
+a:hover{
+    color: orange;
+}
 .left{
     width: 60%;
     
@@ -144,7 +147,53 @@ color: gray;
     margin-top: 20px;
     color: gray;
 
+ }
+ .folding_menu{
+    border: 2px solid red;
+    height: 100vh;
+    width: 70%;
+    position: absolute;
+    left: -500px;
+    
+    background-color: white;
+    transition: ease-in-out 0.3s;
+    box-shadow: 8rem 0px 0.8rem rgba(0,0,0,0.3);
+ }
+ .menu{
+    display: none;
+ }
+ .show_menu{
+    left: 0px;
+ }
+ .close_img{
+height: 40px;
+width: 40px;
+
+ }
+ .close_img img{
+    width: 100%;
+ }
+ .folding_menu div{
+    padding: 5px 5px;
+    margin-top: 20px;
+
+    
+ }
+ .folding_menu a{
+    color: black;
+    font-size: 1.3rem;
+ }
+
+
+ @media screen and (max-width:512px) {
+    .menu{
+        
+        display: block;
+        
     }
+  
+   
+ }
 
 
 
