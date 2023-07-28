@@ -7,13 +7,13 @@ inconMenu.addEventListener("click",showMenu)
 
 function closeMenu(){
    let folding_menu=document.querySelector(".folding_menu")
-   folding_menu.classList.remove(".show_menu")
+   folding_menu.classList.remove("show_menu")
    
   
 }
 function showMenu(){
    let folding_menu=document.querySelector(".folding_menu")
-   folding_menu.classList.add(".show_menu")
+   folding_menu.classList.add("show_menu")
    
 
 

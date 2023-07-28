@@ -173,9 +173,7 @@ color: gray;
  .menu_img{
     display: none;
  }
- .show_menu{
-    right: 0px;
- }
+
  .close_img{
 height: 40px;
 width: 40px;
@@ -255,6 +253,10 @@ width: 40px;
     body{
         padding: 1rem 0px;
     }
+
+    .show_menu{
+        right: 0px;
+     }
 }
   
    
