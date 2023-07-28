@@ -170,7 +170,7 @@ color: gray;
     transition: ease-in-out 0.3s;
     box-shadow: -8rem 0px 0.8rem rgba(0,0,0,0.3);
  }
- .menu{
+ .menu_img{
     display: none;
  }
  .show_menu{
@@ -197,6 +197,9 @@ width: 40px;
 
 
  @media screen and (max-width:512px) {
+    .menu_img{
+        display: block;
+    }
     .main_image{
         
         background-image: url("assets/images/image-web-3-mobile.jpg");
@@ -245,14 +248,18 @@ width: 40px;
     .folding_menu{
         display: block; /*à commenter si tu veux que le menu s'affiche*/
         
+
+           
     }
+    
 
     body{
         padding: 1rem 0px;
     }
+}
   
    
- }
+ 
 
 
 
