@@ -10,7 +10,7 @@
 .card{
     padding:  10px 180px;
     
-    height: 103vh;
+   
 }
 
 header{
@@ -60,13 +60,16 @@ main{
     display: flex;
     justify-content: space-between;
 }
-.image{
-    display: flex;
+.main_image{
+    
+    background-image: url("assets/images/image-web-3-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    background-position: center;
     
 }
-.image img{
-width: 100%;
-}
+
 .text{
     
     display: flex;
@@ -109,6 +112,9 @@ width: 100%;
 .third{
     border: none;
     margin-top: 5px;
+}
+.nav_left{
+    background-image: url("assets/images/logo.svg");
 }
 footer{
     margin-top: 20px;
@@ -154,7 +160,7 @@ color: gray;
     width: 70%;
     position: absolute;
     left: -500px;
-    
+    display: none;
     background-color: white;
     transition: ease-in-out 0.3s;
     box-shadow: 8rem 0px 0.8rem rgba(0,0,0,0.3);
@@ -186,10 +192,35 @@ width: 40px;
 
 
  @media screen and (max-width:512px) {
-    .menu{
+    .main_image{
         
-        display: block;
+        background-image: url("assets/images/image-web-3-mobile.jpg");
+        width: 100%;
+    }
+    .nav_right{
+        display: none;
+    }
+    .text{
+        flex-direction: column;
+    }
+    main{
         
+        flex-direction: column;
+        
+    }
+    .right{
+        width: 50%;
+    }
+    .card{
+        padding: 0px 0px;
+        
+        
+    }
+    footer{
+        flex-direction: column;
+    }
+    .case{
+        width: 50%;
     }
   
    
