@@ -13,7 +13,7 @@ function closeMenu(){
 function showMenu(){
    let folding_menu=document.querySelector(".folding_menu")
    folding_menu.classList.add(".show_menu")
-   alert("issa")
+   
 
 
 }
