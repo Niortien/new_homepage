@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    padding: 1rem 150px;
+}
+
 
 .card{
     padding:  10px 180px;
@@ -155,17 +159,12 @@ color: gray;
 
  }
  .folding_menu{
-    
+    display: none;
     border: 2px solid red;
     height: 100vh;
-    width: 30%;
+    width: 60%;
     position: absolute;
-<<<<<<< HEAD
-    left: -500px;
-    display: none;
-=======
     right: 0px;
->>>>>>> 71c7d28cee23aacd161b13a1ae3739861d774ce0
     background-color: white;
     transition: ease-in-out 0.3s;
     box-shadow: -8rem 0px 0.8rem rgba(0,0,0,0.3);
@@ -201,6 +200,14 @@ width: 40px;
         
         background-image: url("assets/images/image-web-3-mobile.jpg");
         width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+    }
+
+    nav {
+        padding: 0.5rem 1.5rem;
     }
     .nav_right{
         display: none;
@@ -211,10 +218,15 @@ width: 40px;
     main{
         
         flex-direction: column;
+        padding : 0 1.5rem;
         
     }
+    .left{
+      width: 100%;  
+    }
+
     .right{
-        width: 50%;
+        width: 100%;
     }
     .card{
         padding: 0px 0px;
@@ -223,13 +235,19 @@ width: 40px;
     }
     footer{
         flex-direction: column;
+        padding : 0 1.5rem;
     }
     .case{
-        width: 50%;
+        width: 100%;
     }
 
     .folding_menu{
-        display: block;
+        display: none; /*à commenter si tu veux que le menu s'affiche*/
+        
+    }
+
+    body{
+        padding: 1rem 0px;
     }
   
    
