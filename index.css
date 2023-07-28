@@ -149,15 +149,15 @@ color: gray;
 
  }
  .folding_menu{
+    
     border: 2px solid red;
     height: 100vh;
-    width: 70%;
+    width: 30%;
     position: absolute;
-    left: -500px;
-    
+    right: 0px;
     background-color: white;
     transition: ease-in-out 0.3s;
-    box-shadow: 8rem 0px 0.8rem rgba(0,0,0,0.3);
+    box-shadow: -8rem 0px 0.8rem rgba(0,0,0,0.3);
  }
  .menu{
     display: none;
@@ -190,6 +190,10 @@ width: 40px;
         
         display: block;
         
+    }
+
+    .folding_menu{
+        display: block;
     }
   
    
